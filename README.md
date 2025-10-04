@@ -1,13 +1,9 @@
 ---
 title: Text Summarizer
-emoji: 😻
-colorFrom: red
-colorTo: purple
 sdk: gradio
 sdk_version: 5.49.0
 app_file: app.py
 pinned: false
 license: mit
 ---
-
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+This is a text summarization application built using the BART model (facebook/bart-large-cnn) from Hugging Face. It allows users to input long pieces of text and generate concise, coherent summaries, showcasing the power of modern natural language processing for understanding and condensing information.
